@@ -1,0 +1,1 @@
+viewing diff between two files allows us to zoom in on out area of investigation. We can only focus on the changes which might have introduced the bug.
