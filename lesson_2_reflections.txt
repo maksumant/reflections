@@ -3,3 +3,18 @@ Initialising a repository creates an empty repository which is tracked by git. T
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area sits right between working directory and repository. It allows you flexibility to add only few files to commit rather than all of the files in one commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Staging area allows us to add only those files which we want to commit hence allowing us to commit only one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+WHen trying out experiments.
+
+How do the diagrams help you visualize the branch structure?
+Since git commits are non linear, diagrams help you to visualize entire git commit history.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches creates a single commit by mering two branches which has changes from the both branches. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Auto merging is not always perfect. It might not give results which we want. On the other side, always merging manually does not make sense since it add unnecessary manual work which can be easily avoided.
